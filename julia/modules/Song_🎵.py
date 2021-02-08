@@ -52,8 +52,8 @@ async def is_register_admin(chat, user):
         return True
 
 
-JULIASONG = "@MissJuliaRobotMP3"
-JULIAVSONG = "@MissJuliaRobotMP4"
+JULIASONG = "@NancyMp3"
+JULIAVSONG = "@MNancyMP4"
 
 
 @register(pattern="^/song (.*)")
