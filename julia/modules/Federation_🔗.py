@@ -23,7 +23,7 @@ from pymongo import MongoClient
 # Time spended on updating version to v2 = 26+ hours by @AyraHikari
 # Total spended for making this features is 68+ hours
 # LOGGER.info("Original federation module by MrYacha, reworked by Mizukito Akito (@peaktogoo) on Telegram.")
-# ME @MissJulia_Robot has also done a lot of hard work to rewrite this in telethon so add this line as a credit. Please don't remove this if you somewhat respect me.
+# ME @NancyProBot has also done a lot of hard work to rewrite this in telethon so add this line as a credit. Please don't remove this if you somewhat respect me.
 
 
 async def is_register_admin(chat, user):
@@ -123,7 +123,7 @@ async def _(event):
         x = sql.new_fed(user.id, fed_name, fed_id)
         if not x:
             await event.reply(
-                "Can't create federation!\nPlease contact @MissJuliaRobotSupport if the problem persists."
+                "Can't create federation!\nPlease contact @NancyBotHelp if the problem persists."
             )
             return
 
@@ -303,7 +303,7 @@ async def _(event):
         x = sql.chat_join_fed(args, event.chat.title, chat)
         if not x:
             await event.reply(
-                "Failed to join federation! Please contact @MissJuliaRobotSupport should this problem persist!"
+                "Failed to join federation! Please contact @NancyBotHelp should this problem persist!"
             )
             return
 
@@ -717,7 +717,7 @@ async def _(event):
             )
             if not x:
                 await event.reply(
-                    "Failed to ban from the federation! If this problem continues, contact @MissJuliaRobotSupport."
+                    "Failed to ban from the federation! If this problem continues, contact @NancyBotHelp !"
                 )
                 return
 
@@ -819,7 +819,7 @@ async def _(event):
         )
         if not x:
             await event.reply(
-                "Failed to ban from the federation! If this problem continues, contact @OnePunchSupport."
+                "Failed to ban from the federation! If this problem continues, contact @NancyBotHelp."
             )
             return
 
@@ -964,7 +964,7 @@ async def _(event):
             x = sql.set_frules(fed_id, args)
             if not x:
                 await event.reply(
-                    "There was an error while setting federation rules!\nPlease go to @MissJuliaRobotSupport to report this."
+                    "There was an error while setting federation rules!\nPlease go to @NancyBotHelp to report this."
                 )
                 return
 
@@ -2020,7 +2020,7 @@ __help__ = """
  - /unsetfedlog <fed_id>: Removed the group as a fed log report base for the federation
  - /fbroadcast <message>: Broadcasts a messages to all groups that have joined your fed
  - /fedsubs: Shows the feds your group is subscribed to (broken rn)
- - /fban (<user>|<reason>): Fed bans a user. Syntax: `fban 12345 | testing`, `fban @MissJuliaRobot | testing`.
+ - /fban (<user>|<reason>): Fed bans a user. Syntax: `fban 12345 | testing`, `fban @NancyProBot | testing`.
  - /unfban <user> <reason>: Removes a user from a fed ban.
  - /fedinfo <fed_id>: Information about the specified Federation.
  - /joinfed <fed_id>: Join the current chat to the Federation. 
