@@ -1275,7 +1275,7 @@ __help__ = """
  - /unbanall: Unbans all in the chat
  - /unmuteall: Unmutes all in the chat
  - /users: list all the users in the chat
- - /zombies: counts the number of deleted account in your group
+ - /zombies: counts the number of delete account in your group
  - /kickthefools: kicks all members inactive from 1 week
 """
 
