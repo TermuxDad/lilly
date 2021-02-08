@@ -44,7 +44,7 @@ async def is_register_admin(chat, user):
 
 
 PM_START_TEXT = (
-    "[Julia](https://telegra.ph/MissJulieRobot-10-24)"
+    "[Julia](https://telegra.ph/Nancy-ProBoT-02-08)"
     + " "
     + "**"
     + "V"
@@ -77,21 +77,21 @@ async def start(event):
                         "Add To Group  👥", "t.me/MissJuliaRobot?startgroup=true"
                     ),
                     Button.url(
-                        "Support Group 🎙️", "https://t.me/MissJuliaRobotSupport"
+                        "Support Group 🎙️", "https://t.me/NancyBotHelp"
                     ),
                 ],
                 [
                     Button.inline("Commands ❓", data="help_menu"),
                     Button.url(
-                        "Source 📀", "https://github.com/MissJuliaRobot/MissJuliaRobot"
+                        "Source 📀", "https://github.com/MrSammyXD"
                     ),
                 ],
                 [
-                    Button.url("Channel 🗞️", url="https://t.me/MissJuliaRobotNews/2"),
-                    Button.url("Webiste 🌐", "missjuliarobot.unaux.com"),
-                    Button.url("Donate 💲", "https://ko-fi.com/missjuliarobot"),
+                    Button.url("Channel 🗞️", url="https://t.me/NancyBotNews/2"),
+                    Button.url("Creator 😈", url="https://t.me/itzwolf"),
+                    Button.url("Donate 💲", "https://paypal.com/mrsammy07"),
                 ],
-                [Button.inline("Close Menu 🔒", data="start_again")],
+                [Button.inline("Close Menu 🚫", data="start_again")],
             ],
         )
     else:
@@ -117,20 +117,20 @@ async def reopen_again(event):
             buttons=[
                 [
                     Button.url(
-                        "Add To Group  👥", "t.me/MissJuliaRobot?startgroup=true"
+                        "Add To Group  👥", "t.me/NancyProBot?startgroup=true"
                     ),
                     Button.url(
-                        "Support Group 🎙️", "https://t.me/MissJuliaRobotSupport"
+                        "Support Group 🎙️", "https://t.me/NancyBotHelp"
                     ),
                 ],
                 [
                     Button.inline("Commands ❓", data="help_menu"),
                     Button.url(
-                        "Source 📀", "https://github.com/MissJuliaRobot/MissJuliaRobot"
+                        "Source 📀", "https://github.com/MrSammyXD"
                     ),
                 ],
                 [
-                    Button.url("Channel 🗞️", url="https://t.me/MissJuliaRobotNews/2"),
+                    Button.url("Channel 🗞️", url="https://t.me/NancyBotNews/2"),
                     Button.url("Webiste 🌐", "missjuliarobot.unaux.com"),
                     Button.url("Donate 💲", "https://ko-fi.com/missjuliarobot"),
                 ],
