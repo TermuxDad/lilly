@@ -447,7 +447,7 @@ file_help = file_help.replace(".py", "")
 file_helpo = file_help.replace("_", " ")
 
 __help__ = """
- - /cleanbluetext <on/off/yes/no>: clean commands from non-admins after sending
+ - /cleanbluetext <on/off/yes/no>: clean command from non-admins after sending
  - /ignorecleanbluetext <word>: prevent auto cleaning of the command
  - /unignorecleanbluetext <word>: remove prevent auto cleaning of the command
  - /listcleanbluetext: list currently whitelisted commands
